@@ -1,0 +1,113 @@
+2015-01-22 14:32:25,794 [main] INFO  org.apache.pig.Main - Apache Pig version 0.12.0-cdh5.3.0 (rexported) compiled Dec 16 2014, 19:06:43
+2015-01-22 14:32:25,794 [main] INFO  org.apache.pig.Main - Logging error messages to: /home/s0088854/eind/pig_1421933545792.log
+2015-01-22 14:32:26,326 [main] INFO  org.apache.pig.impl.util.Utils - Default bootup file /home/s0088854/.pigbootup not found
+2015-01-22 14:32:26,513 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+2015-01-22 14:32:26,513 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - fs.default.name is deprecated. Instead, use fs.defaultFS
+2015-01-22 14:32:26,513 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to hadoop file system at: hdfs://ctit048.ewi.utwente.nl
+2015-01-22 14:32:27,008 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to map-reduce job tracker at: ctit048.ewi.utwente.nl:9001
+2015-01-22 14:32:27,788 [main] WARN  org.apache.pig.PigServer - Encountered Warning IMPLICIT_CAST_TO_MAP 6 time(s).
+2015-01-22 14:32:27,788 [main] WARN  org.apache.pig.PigServer - Encountered Warning IMPLICIT_CAST_TO_CHARARRAY 1 time(s).
+2015-01-22 14:32:27,802 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig features used in the script: GROUP_BY,DISTINCT,FILTER
+2015-01-22 14:32:27,846 [main] INFO  org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer - {RULES_ENABLED=[AddForEach, ColumnMapKeyPrune, DuplicateForEachColumnRewrite, GroupByConstParallelSetter, ImplicitSplitInserter, LimitOptimizer, LoadTypeCastInserter, MergeFilter, MergeForEach, NewPartitionFilterOptimizer, PartitionFilterOptimizer, PushDownForEachFlatten, PushUpFilter, SplitFilter, StreamTypeCastInserter], RULES_DISABLED=[FilterLogicExpressionSimplifier]}
+2015-01-22 14:32:27,876 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+2015-01-22 14:32:27,985 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - File concatenation threshold: 100 optimistic? false
+2015-01-22 14:32:28,033 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer - Choosing to move algebraic foreach to combiner
+2015-01-22 14:32:28,056 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size before optimization: 2
+2015-01-22 14:32:28,056 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size after optimization: 2
+2015-01-22 14:32:28,130 [main] INFO  org.apache.hadoop.yarn.client.RMProxy - Connecting to ResourceManager at ctit048.ewi.utwente.nl/130.89.6.234:8032
+2015-01-22 14:32:28,299 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2015-01-22 14:32:28,409 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.reduce.markreset.buffer.percent is deprecated. Instead, use mapreduce.reduce.markreset.buffer.percent
+2015-01-22 14:32:28,409 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2015-01-22 14:32:28,409 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-01-22 14:32:28,422 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Reduce phase detected, estimating # of required reducers.
+2015-01-22 14:32:28,424 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Using reducer estimator: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator
+2015-01-22 14:32:28,441 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.InputSizeReducerEstimator - BytesPerReducer=1000000000 maxReducers=999 totalInputFileSize=2610459070
+2015-01-22 14:32:28,442 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 3
+2015-01-22 14:32:28,442 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2015-01-22 14:32:28,790 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job1699204096682978225.jar
+2015-01-22 14:32:32,389 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job1699204096682978225.jar created
+2015-01-22 14:32:32,389 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.jar is deprecated. Instead, use mapreduce.job.jar
+2015-01-22 14:32:32,454 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2015-01-22 14:32:32,467 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2015-01-22 14:32:32,467 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cache
+2015-01-22 14:32:32,467 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2015-01-22 14:32:32,469 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting identity combiner class.
+2015-01-22 14:32:32,557 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2015-01-22 14:32:32,559 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker.http.address is deprecated. Instead, use mapreduce.jobtracker.http.address
+2015-01-22 14:32:32,559 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+2015-01-22 14:32:32,571 [JobControl] INFO  org.apache.hadoop.yarn.client.RMProxy - Connecting to ResourceManager at ctit048.ewi.utwente.nl/130.89.6.234:8032
+2015-01-22 14:32:32,597 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation - fs.default.name is deprecated. Instead, use fs.defaultFS
+2015-01-22 14:32:32,597 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2015-01-22 14:32:33,122 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 9
+2015-01-22 14:32:33,136 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 20
+2015-01-22 14:32:33,330 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter - number of splits:20
+2015-01-22 14:32:33,564 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter - Submitting tokens for job: job_1421921564674_0046
+2015-01-22 14:32:33,786 [JobControl] INFO  org.apache.hadoop.yarn.client.api.impl.YarnClientImpl - Submitted application application_1421921564674_0046
+2015-01-22 14:32:33,825 [JobControl] INFO  org.apache.hadoop.mapreduce.Job - The url to track the job: http://ctit048.ewi.utwente.nl:8088/proxy/application_1421921564674_0046/
+2015-01-22 14:32:33,825 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_1421921564674_0046
+2015-01-22 14:32:33,825 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases data,groups,json_data
+2015-01-22 14:32:33,825 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: json_data[5,12],data[6,7],data[7,7],groups[8,9] C:  R: 
+2015-01-22 14:32:33,826 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://ctit048.ewi.utwente.nl:50030/jobdetails.jsp?jobid=job_1421921564674_0046
+2015-01-22 14:32:33,870 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 0% complete
+2015-01-22 14:32:52,185 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 11% complete
+2015-01-22 14:32:54,298 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 21% complete
+2015-01-22 14:32:59,044 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 50% complete
+2015-01-22 14:33:04,794 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2015-01-22 14:33:04,826 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2015-01-22 14:33:04,826 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Reduce phase detected, estimating # of required reducers.
+2015-01-22 14:33:04,826 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting Parallelism to 1
+2015-01-22 14:33:04,826 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2015-01-22 14:33:04,943 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job2332739233811417310.jar
+2015-01-22 14:33:08,350 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job2332739233811417310.jar created
+2015-01-22 14:33:08,362 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2015-01-22 14:33:08,363 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Key [pig.schematuple] is false, will not generate code.
+2015-01-22 14:33:08,363 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Starting process to move generated code to distributed cache
+2015-01-22 14:33:08,363 [main] INFO  org.apache.pig.data.SchemaTupleFrontend - Setting key [pig.schematuple.classes] with classes to deserialize []
+2015-01-22 14:33:08,387 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2015-01-22 14:33:08,387 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+2015-01-22 14:33:08,390 [JobControl] INFO  org.apache.hadoop.yarn.client.RMProxy - Connecting to ResourceManager at ctit048.ewi.utwente.nl/130.89.6.234:8032
+2015-01-22 14:33:08,399 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation - fs.default.name is deprecated. Instead, use fs.defaultFS
+2015-01-22 14:33:08,605 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 3
+2015-01-22 14:33:08,605 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 3
+2015-01-22 14:33:08,605 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 1
+2015-01-22 14:33:08,725 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter - number of splits:1
+2015-01-22 14:33:08,800 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter - Submitting tokens for job: job_1421921564674_0047
+2015-01-22 14:33:08,820 [JobControl] INFO  org.apache.hadoop.yarn.client.api.impl.YarnClientImpl - Submitted application application_1421921564674_0047
+2015-01-22 14:33:08,823 [JobControl] INFO  org.apache.hadoop.mapreduce.Job - The url to track the job: http://ctit048.ewi.utwente.nl:8088/proxy/application_1421921564674_0047/
+2015-01-22 14:33:08,887 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_1421921564674_0047
+2015-01-22 14:33:08,887 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Processing aliases 1-1,numCountries
+2015-01-22 14:33:08,887 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - detailed locations: M: numCountries[10,15],1-1[10,24] C: numCountries[10,15],1-1[10,24] R: numCountries[10,15]
+2015-01-22 14:33:08,887 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://ctit048.ewi.utwente.nl:50030/jobdetails.jsp?jobid=job_1421921564674_0047
+2015-01-22 14:33:21,643 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 75% complete
+2015-01-22 14:33:34,063 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 100% complete
+2015-01-22 14:33:34,103 [main] INFO  org.apache.pig.tools.pigstats.SimplePigStats - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+2.5.0-cdh5.2.1	0.12.0-cdh5.3.0	s0088854	2015-01-22 14:32:28	2015-01-22 14:33:34	GROUP_BY,DISTINCT,FILTER
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTIme	AvgMapTime	MedianMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	MedianReducetime	Alias	Feature	Outputs
+job_1421921564674_0046	20	3	12	9	11	11	5	4	4	4	data,groups,json_data	DISTINCT	
+job_1421921564674_0047	1	1	4	4	4	4	4	4	4	4	1-1,numCountries	GROUP_BY,COMBINER	hdfs://ctit048.ewi.utwente.nl/user/s0088854/numCountries,
+
+Input(s):
+Successfully read 900000 records (2612826512 bytes) from: "/user/s0165263/sample"
+
+Output(s):
+Successfully stored 1 records (4 bytes) in: "hdfs://ctit048.ewi.utwente.nl/user/s0088854/numCountries"
+
+Counters:
+Total records written : 1
+Total bytes written : 4
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_1421921564674_0046	->	job_1421921564674_0047,
+job_1421921564674_0047
+
+
+2015-01-22 14:33:35,113 [main] INFO  org.apache.hadoop.ipc.Client - Retrying connect to server: ctit040.ewi.utwente.nl/130.89.6.226:33281. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)

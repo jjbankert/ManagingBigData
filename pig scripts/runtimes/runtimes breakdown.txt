@@ -1,0 +1,19 @@
+numCountries:
+1:01 voor sample (para 3)
+4:13 voor 73.5M (para 214)
+
+simplePercentagePerCountry:
+1:45 sample
+3:37 data
+
+multilingualPerson:
+3:15 sample
+6:07 data
+
+multipleCountries:
+1:41 sample
+5:06 data
+
+tweetsPerCountry:
+0:31
+2:31
